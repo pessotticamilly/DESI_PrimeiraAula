@@ -10,48 +10,107 @@
             <nav><nav>
         </header>
         <main>
-            <h1>Tags de textos</h1>
-            <h1>Título</h1>
-            <h2>Título</h2>
-            <h3>Título</h3>
-            <h4>Título</h4>
-            <h5>Título</h5>
-            <h6>Título</h6>
-            <p>Hello, World!</p>
-            <p>Hello, <strong>World!</strong></p>
-            <p>Hello, <em>World!</em></p>
-            <p>Hello, <br>World!</p>
-            <p>Hello, World!</p>
-            <br>
-            <p>Hello, World!</p>
-            <hr>
-            <h1>Tags de listas</h1>
-            <ol>
-                <li>Harry Potter e a Pedra Filosofal (1997)</li>
-                <li>Harry Potter e a Câmara Secreta (1998)</li>
-                <li>Harry Potter e o Prisioneiro de Azkaban (1999)</li>
-                <li>Harry Potter e o Cálice de Fogo (2000)</li>
-                <li>Harry Potter e a Ordem da Fênix (2003)</li>
-                <li>Harry Potter e o Enigma do Príncipe (2005)</li>
-                <li>Harry Potter e as Relíquias da Morte (2007)</li>
-            </ol>
-            <ul>
-                <li>Banana</li>
-                <li>Arroz</li>
-                <li>Aveia</li>
-                <li>Kiwi</li>
-                <li>Pimentão</li>
-                <li>Lentilha</li>
-                <li>Chocolate</li>
-            </ul>
-            <hr>
-            <h1>Tag de Link</h1>
-            <a href="https://open-vsx.org/" target="_blank">Link</a>
-            <hr>
-            <h1>Tags de Mídia</h1>
-            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSWDdkRTFkVlXd6btTevpAfNQ1DyTFwlhRHNAMtH7VTJQ&s=10" alt="Pinguins">
-            <img src="../assets/cisnei.jpg" alt="Cisnei">
+            <section>
+                <h1>Tags de textos</h1>
+                <h1>Título</h1>
+                <h2>Título</h2>
+                <h3>Título</h3>
+                <h4>Título</h4>
+                <h5>Título</h5>
+                <h6>Título</h6>
+                <p>Hello, World!</p>
+                <p>Hello, <strong>World!</strong></p>
+                <p>Hello, <em>World!</em></p>
+                <p>Hello, <br>World!</p>
+                <p>Hello, World!</p>
+                <br>
+                <p>Hello, World!</p>
+                <hr>
+            </section>
+            <section>
+                <h1>Tags de listas</h1>
+                <ol>
+                    <li>Harry Potter e a Pedra Filosofal (1997)</li>
+                    <li>Harry Potter e a Câmara Secreta (1998)</li>
+                    <li>Harry Potter e o Prisioneiro de Azkaban (1999)</li>
+                    <li>Harry Potter e o Cálice de Fogo (2000)</li>
+                    <li>Harry Potter e a Ordem da Fênix (2003)</li>
+                    <li>Harry Potter e o Enigma do Príncipe (2005)</li>
+                    <li>Harry Potter e as Relíquias da Morte (2007)</li>
+                </ol>
+                <ul>
+                    <li>Banana</li>
+                    <li>Arroz</li>
+                    <li>Aveia</li>
+                    <li>Kiwi</li>
+                    <li>Pimentão</li>
+                    <li>Lentilha</li>
+                    <li>Chocolate</li>
+                </ul>
+                <hr>
+            </section>
+            <section>
+                <h1>Tag de Link</h1>
+                <a href="https://open-vsx.org/" target="_blank">Link</a>
+                <hr>
+            </section>
+            <section>
+                <h1>Tags de Mídia</h1>
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSWDdkRTFkVlXd6btTevpAfNQ1DyTFwlhRHNAMtH7VTJQ&s=10" alt="Pinguins">
+                <br>
+                <img src="../assets/cisnei.jpg" alt="Cisnei">
+                <br>
+                <video controls>
+                    <source src="link_do_video" type="video/mp4">
+                </video>
+                <br>
+                <audio controls>
+                    <source src="link_do_audio" type="audio/mpeg">
+                </audio>
+                <hr>
+            </section>
+            <section>
+                <form>
+                    <label for="nome">Nome: </label>
+                    <input id="nome" type="text" placeholder="Escreva seu nome" required>
+                    <br>
+                    <label for="email">E-mail: </label>
+                    <input id="email" type="email">
+                    <br>
+                    <label for="dataNascimento">Data de Nascimento: </label>
+                    <input id="dataNascimento" type="date">
+                    <br>
+                    <label for="idade">Idade: </label>
+                    <input id="idade" type="number">
+                    <br>
+                    <label for="senha">Senha</label>
+                    <input id="senha" type="password">
+                    <br>
+                    <label for="genero">Gênero: </label>
+                    <select id="genero">
+                        <option value="masculino">Masculino</option>
+                        <option value="feminino">Feminino</option>
+                        <option value="outro">Outro</option>
+                    </select>
+                    <br>
+                    <label for="mensagem">Mensagem</label>
+                    <textarea id="mensagem"></textarea>
+                    <br>
+                    <button type="reset">Limpar</button>
+                    <button type="submit">Enviar</button>
+                </form>
+            </section>
         </main>
         <footer></footer>
     </body>
 </html>
+
+
+
+
+
+
+
+
+
+
