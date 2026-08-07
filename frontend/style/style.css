@@ -1,0 +1,46 @@
+/* # --> id
+. --> class */
+
+body, h1, h2, h3, h4, h5, h6, p { 
+    margin: 0;
+}
+
+#div {
+    background-color: aqua;
+}
+
+#span {
+    background-color: yellow;
+}
+
+.section {
+    background-color: pink!important;
+    color: dodgerblue;
+    border: 2px dashed darkorchid;
+    border-radius: 10px;
+    margin: 10px;
+    padding: 10px;
+}
+
+input, select, textarea {
+    border: 2px solid brown;
+    background-color: lightsalmon;
+    color: dodgerblue;
+}
+
+input:focus, select:focus, textarea:focus {
+    outline: none;
+}
+
+input::placeholder{
+    color: brown;
+}
+
+
+
+a {
+    display: inline-block;
+    color: forestgreen;
+    text-decoration: overline;
+    transform: rotate(180deg);
+}
