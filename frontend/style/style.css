@@ -36,7 +36,20 @@ input::placeholder{
     color: brown;
 }
 
+#reset {
+    background-color: tomato;
+    border: none;
+    color: brown;
+    padding: 10px;
+}
 
+#submit {
+    background-color: chartreuse;
+    border: none;
+    color: darkolivegreen;
+    width: 75px;
+    height: 40px;
+}
 
 a {
     display: inline-block;
